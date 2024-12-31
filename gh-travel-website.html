@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&family
+        =Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Happy+Monkey&family=Montserrat:ital,
+        wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Travel webpage - 01"</title>
+        <style>
+            
+            #container {
+                display:flexbox;
+                
+                border: 0px solid #c3c3c3;
+                
+            }
+
+            #container div {
+            width: 500px;
+            text-align: center;
+            }
+
+            .titleimg {
+                display: flex;
+                border-style: solid ;
+                border-color: red;
+                border-width: 3px;
+                width: 500px;
+                margin: 0px 25px ;
+                
+            }
+            
+            #titleh1 {
+                text-align:center;
+                color: rgb(228, 240, 57);
+                text-shadow: 0px 0px 5px rgb(236, 11, 11);
+                font-size: 24px;
+                margin: 10px 0px 10px 20px;
+                width: 500px;
+                font-weight: bold;
+                font-family: Oswald, sans-serif;
+                /*
+                font-family: "Ysabeau SC", serif;
+                font-optical-sizing: auto;
+                font-weight: bold;
+                font-style: normal;*/
+                
+                
+            }
+            
+            #titleh2 {
+                text-align:start;
+                color: rgb(148, 148, 145);
+                margin: 0px 0px 0px 25px;
+                width: 500px;
+                padding: 10px 0px 10px 5px;
+                font-family: "Montserrat", serif;
+                font-optical-sizing: auto;
+                font-weight: bold;
+                font-style: normal;
+            }
+
+            #titleh3 {
+                text-align:end;
+                color: rgb(255, 255, 255);
+                border-style: solid;
+                text-shadow: 0px 0px 5px rgb(0, 0, 0);
+                margin: 0px 0px 0px 25px;
+                width: 500px;
+                height: max-content;
+                padding: 250px 5px 10px 0px;
+                font-family: "Montserrat", serif;
+                font-optical-sizing: auto;
+                font-weight: bold;
+                font-size: 20px;
+                font-style: normal;
+                background-image: url("https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach.png");
+                border: 2px, solid, rgb(255, 255, 255);
+            }
+            
+            .booknow {
+                text-align:center;
+                color: rgb(255, 0, 0);
+                border: 2px solid #ff0d0d;
+                font-size: 14px;
+
+                margin: 0px 0px 0px 25px;
+                width: 500px;
+                padding: 10px;
+                font-family: Oswald, sans-serif;
+                font-weight: normal;
+                background-color: white;
+                border: 2px solid #e7e7e7;
+                box-shadow: -2px 2px 4px #888888;
+                
+            }
+
+
+            .booknow:hover {
+                background-color: #fd0000;
+                color: white;
+                font-size: 15px;
+                font-weight:bolder;
+            
+            }
+
+
+            .traveltxt-con {
+                text-align:start;
+                color:rgb(117, 113, 117);
+                display: flex;
+                justify-content: space-around;
+                margin: 10px 0px 0px 25px;
+                width: 500px;
+                padding: 0px 0px 5px 0px;
+                
+            }
+            
+            .infotxt1{
+                text-align:start;
+                color:rgb(117, 113, 117);
+                display: inline-block;
+                justify-content: space-around;
+                margin: 0px 0px 10px 10px;
+                width:  300px;
+                height: 120px;
+                line-height: 20px;
+                font-size: 12px;
+                padding: 0px 0px 5px 10px;
+                font-family: "Montserrat", serif;
+                font-optical-sizing: auto;
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            .img2 {
+                width:  180px;
+                height: 100px;
+                border: 2px, solid, rgb(255, 255, 255);
+
+
+                box-shadow: 2px 2px 2px #888888;
+            }
+            
+            body{
+                background-image: linear-gradient(to top , #ccffcc, #ffffff);
+
+            }
+            
+            .flexcontianer {
+              display: flex;
+              justify-content: space-around;
+              width:  500px;
+              margin: 10px 0px 0px 25px;
+              padding: 10px 0px 20px 0px;
+              
+            }
+        
+            .flexcontianer > div {
+              color:rgb(117, 113, 117);
+              border: 2px, solid, rgb(255, 255, 255);
+              background-color: white;
+              width: 200px;
+              height:195px;
+              margin: 4px;
+              text-align: start;
+              line-height: 20px;
+              font-size: 12px;
+              justify-content: space-around;
+              padding: 0px 0px 10px 0px;
+              font-family: "Montserrat", serif;
+              font-optical-sizing: auto;
+              font-weight: normal;
+              font-style: normal;
+              
+            } 
+            
+            .bordershadow {
+                border: 1px solid;
+                padding: 10px;
+                box-shadow: -2px 2px 4px #888888;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div id="container">
+        <div>
+        <h1 id="titleh1"><strong>JAM</strong><em>AIRLINES</em></h1>
+        </div>
+        
+        <div>   
+            <h1 id="titleh3"> Travel to Montego Bay </h1>
+        </div>
+        
+
+        
+        <div>
+        <h2 id="titleh2">Montego Bay vacation</h2>
+        </div>
+        
+        <div class="traveltxt-con">
+            <div><p class="infotxt1">Book one of amazing trips to <strong>Montego Bay</strong> and get ready for a restful Caribbean beach retreat From the 
+                <em>vibrant nightlife around Hip Strip</em><em>peaceful settings <br> of Whitehouse</em>, <em><strong>Montego Bay</strong> 
+                travel packages cater to everyone.</em></p>
+            </div> 
+            
+            <div>
+                    <img  class="img2"src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-waves-daytime.png"   
+                    alt = "Beach and coconut tree" > 
+            </div>
+        </div> 
+        
+        
+        <div class="flexcontianer">
+            <div class="bordershadow"><a><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-with-palm-trees.png" 
+                alt=" Sandy Bay " width="160" height="100"></a><br>Explore family-friendly attractions in Sandy Bay treat yourself to a luxury resortaround Lucea.
+            </div>
+            
+            <div class="bordershadow"><a><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png" 
+                alt="sunsets" width="160" height="100"></a><br>Catch romantic sunsets near Falmouth enjoy attractive sandy beachs.
+            </div>
+            
+            <div class="bordershadow"><a><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/pasta.png" 
+                alt="meals included" width="160" height="100"></a><br>With all meals included, you can sit back and relax safe in the knowledge that everything's done for you.
+            </div>
+        
+        </div>
+        
+        <div ><button class="booknow" href="default.asp" target= "_blank"><strong>BOOK NOW  FOR AMAZING DEAL  CLICK HERE - 20% OFF  THIS MOUTH ONLY. </strong></button></div>
+        
+    </div>
+
+    </body>
+</html>
