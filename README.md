@@ -1,1 +1,0 @@
-# rogs_blog.github.io
